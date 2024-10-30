@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Робота з діалоговими вікнами</title>
+	</head>
+	<body>
+		<script> 
+			"use strict";
+			alert("Моє друге діалогове вікно у власній сторінці"); 
+			const answer=confirm("Бажаєте відповісти на одне запитання???");
+			if (answer) {
+				const name=prompt ("Введіть вашу улюблену страву", ""); 
+				alert(" Ого, у вас чудовий смак, адже "+ name + " неперевершена страва");
+			} 
+			else alert ("Шкода, а це було б не важко!");
+		</script>
+	</body>
+</html>
